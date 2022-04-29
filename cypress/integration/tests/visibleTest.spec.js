@@ -1,4 +1,4 @@
-
+/// <reference types="cypress" />
 
 describe('UI scenario', ()=> {
   it('go to website',()=>{
