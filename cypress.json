@@ -1,6 +1,6 @@
 {
   "reporter": "cypress-mochawesome-reporter",
   "video": false,
-  "watchForFileChanges": false,
+  "watchForFileChanges": true,
   "chromeWebSecurity": false
 }
