@@ -3,6 +3,5 @@
   "video": false,
   "watchForFileChanges": true,
   "chromeWebSecurity": false,
-  "pageLoadTimeout":	60000,
-  "pluginsFile": false
+  "pageLoadTimeout":	60000
 }
