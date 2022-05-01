@@ -2,5 +2,7 @@
   "reporter": "cypress-mochawesome-reporter",
   "video": false,
   "watchForFileChanges": true,
-  "chromeWebSecurity": false
+  "chromeWebSecurity": false,
+  "pageLoadTimeout":	60000,
+  "pluginsFile": false
 }
