@@ -10,7 +10,6 @@ describe('use fixture', ()=> {
       cy.get('[id^=signInPasswordInput-]').type(pw)
       cy.get('#signInSubmitBtn').click()
     })
-  
   })
 })
 
