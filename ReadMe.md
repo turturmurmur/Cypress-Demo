@@ -2,7 +2,7 @@
 ### PS: Please leave a star as well if you clone the repo ;)
 ### This is done by Murat Erdem to demo some features of Cypress tool for automation purposes.
 
-
+To install dependencies run 'npm install'
 
 The tests are inside integration folder.
 Plugins will have the mochawesome reporter installed for generating a report after running.
