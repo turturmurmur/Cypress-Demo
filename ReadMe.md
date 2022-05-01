@@ -1,5 +1,6 @@
-This is done by Murat Erdem to demo some features of Cypress tool for automation purposes.
 PS: Please leave a star as well if you clone the repo ;)
+This is done by Murat Erdem to demo some features of Cypress tool for automation purposes.
+
 
 The tests are inside integration folder.
 Plugins will have the mochawesome reporter installed for generating a report after running.
