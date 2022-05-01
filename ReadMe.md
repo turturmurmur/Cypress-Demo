@@ -1,5 +1,7 @@
-PS: Please leave a star as well if you clone the repo ;)
-This is done by Murat Erdem to demo some features of Cypress tool for automation purposes.
+![Cypress](https://www.cypress.io/static/cypress-io-logo-social-share-8fb8a1db3cdc0b289fad927694ecb415.png)
+### PS: Please leave a star as well if you clone the repo ;)
+### This is done by Murat Erdem to demo some features of Cypress tool for automation purposes.
+
 
 
 The tests are inside integration folder.
