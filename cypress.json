@@ -1,7 +1,0 @@
-{
-  "reporter": "cypress-mochawesome-reporter",
-  "video": false,
-  "watchForFileChanges": true,
-  "chromeWebSecurity": false,
-  "pageLoadTimeout":	60000
-}
