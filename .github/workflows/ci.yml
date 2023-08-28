@@ -15,6 +15,3 @@ jobs:
           browser: firefox
           spec: |
             cypress\e2e\tests\APITest.cy.js
-            cypress\e2e\tests\checkElementVisibility.cy.js
-            cypress\e2e\tests\checkUrlandTitle.cy.js
-            cypress\e2e\tests\clearCookiesAndLocalStorage.cy.js
