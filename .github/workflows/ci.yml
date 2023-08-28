@@ -14,4 +14,4 @@ jobs:
         with:
           browser: firefox
           spec: |
-            cypress\e2e\tests\APITest.cy.js
+            cypress/e2e/tests/APITest.cy.js
