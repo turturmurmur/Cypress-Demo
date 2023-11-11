@@ -1,0 +1,27 @@
+name: End-to-end tests
+on: push
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+    name: E2E on Firefox
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      # Install npm dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v5
+        with:
+          browser: firefox
+          spec: |
+            cypress/e2e/tests/APITest.cy.js
+            cypress/e2e/tests/checkElementVisibility.cy.js
+            cypress/e2e/tests/checkUrlandTitle.cy.js
+            cypress/e2e/tests/clearCookiesAndLocalStorage.cy.js
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: html report
+          path: cypress/reports/html
+          retention-days: 30
